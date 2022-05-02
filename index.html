@@ -1,0 +1,267 @@
+<!--Name: John Christopher Lacadin
+    Email: cooksies@my.yorku.ca
+    Student ID: 217261066-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>TopherMD</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">          
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+        <script src="https://kit.fontawesome.com/b4dc5b923d.js" crossorigin="anonymous"></script>
+
+        <!--This style is used for the scroll wheels-->
+        <style>
+          /* width */
+          ::-webkit-scrollbar {
+            width: 10px;
+          }
+          
+          /* Track */
+          ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+          }
+           
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #888; 
+          }
+          
+          /* Handle on hover */
+          ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+          }
+          </style>
+
+      </head>
+
+    <body>
+        <header>
+            <section id="nav-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="TopherMD Logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Movies</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">TV Shows</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Genre</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Watchlist</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                      </form>
+                      </div>
+                    </div>
+                  </nav>
+                </section>
+        </header>
+
+        <main>
+            <section id="banner">
+                <div class="container movie-details">
+                    <div class="row">
+                        <div class="col-md-4 left-box text-left">
+                          <div>
+                            <a class="movie-poster" href="#"><img class="img-fluid" src="img/moviePoster.jpg" class="rounded-top" alt="Spider: No Way Home Poster"></a>
+                          </div>
+                          <div class="btn-group btn-group-lg" role="group">
+                              <button type="button" class="btn btn-primary"><i class="far fa-bookmark"></i> Watchlist</button>
+                              <button type="button" class="btn btn-primary"><i class="far fa-heart"></i> Favorite</button>
+                          </div>                                                 
+                        </div>
+                        <div class="col-md-8 right-box text-left">
+                          <div class="movie-title">
+                            <h2>
+                              <a class="title"href=#>Spiderman: No Way Home <span id="release-date">(2021) </span></a>
+                            </h2>
+                            <a class="btn btn-primary" href="#" role="button"><i class="fas fa-play"></i> Trailer</a>
+                          </div>
+                          <div class="facts">
+                            <span class="release">12/17/2021</span>
+                            <span class="genres">
+                              <a href="#">Action&comma;</a> 
+                              <a href="#">Adventure&comma;</a> 
+                              <a href="#">Sci-fi</a> 
+                            </span>
+                            <span class="duration">2h 28m</span>
+                          </div>
+                          <div class="synopsis">
+                            <h4 class="overview">Overview</h4>
+                            <p>With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is 
+                              unmasked and no longer able to separate his normal life as Peter Parker from the high stakes 
+                              of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, 
+                              forcing him to discover what it truly means to be Spider-Man.</p>
+                          </div>
+                          <div class="creators">
+                            <span class="profile">
+                              <p><a href="#">John Watts</a></p>
+                              <p class="character"></p>Director</p>
+                            </span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="content">
+              <div class="container media">
+                <div class="row">
+                  <div class="col-md-9 left-box content-media">
+                    <h4>Cast Members</h4>
+                    <div class="cast-members">
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/TomHollandpfp.jpg" class="card-img-top" alt="Tom Holland"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Tom Holland</p></a>
+                            <p class="character"></p>Peter Parker / Spider-Man</p>
+                          </div>
+                        </div>
+                      </span>
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/Zendayapfp.jpg" class="card-img-top" alt="Zendaya"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Zendaya</p></a>
+                            <p class="character"></p>Michelle 'MJ' Jones</p>
+                          </div>
+                        </div>
+                      </span>
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/JacobBatalonpfp.jpg" class="card-img-top" alt="Jacob Batalon"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Jacob Batalon</p></a>
+                            <p class="character"></p>Ned Leeds</p>
+                          </div>
+                        </div>
+                      </span>
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/BenedictCumberbatchpfp.jpg" class="card-img-top" alt="Benedict Cumberbatch"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Benedict Cumberbatch</p></a>
+                            <p class="character"></p>Stephen Strange / Doctor Strange</p>
+                          </div>
+                        </div>
+                      </span>
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/WillemDafoepfp.jpg" class="card-img-top" alt="Willem Dafoe"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Willem Dafoe</p></a>
+                            <p class="character"></p>Norman Osborn / Green Goblin</p>
+                          </div>
+                        </div>
+                      </span>
+                      <span class="cast-profile">
+                        <div class="card">
+                          <a href="#"><img src="img/JamieFoxxpfp.jpg" class="card-img-top" alt="Jamie Foxx"></a>
+                          <div class="card-body">
+                            <a href="#"><p>Jamie Foxx</p></a>
+                            <p class="character"></p>Max Dillon / Electro</p>
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <hr id="horizontal-line">
+                    <h4>Recommendations</h4>
+                    <div class="recommendations">
+                      <div class="container movie-list">
+                        <a href="#"><img class="rounded" src="img/HomecomingPoster.jpg" alt="Spiderman: Homecoming Poster">
+                        <div class="overlay">Spiderman: Homecoming</div></a>
+                      </div>
+                      <div class="container movie-list">
+                        <a href="#"><img class="rounded" src="img/FarFromHomePoster.jpg" alt="Spiderman: Far From Home Poster">
+                        <div class="overlay">Spiderman: Far From Home</div></a>
+                      </div>
+                      <div class="container movie-list">
+                        <a href="#"><img class="rounded" src="img/InvinityWarPoster.jpg" alt="Avengers: Infinity War Poster">
+                        <div class="overlay">Avengers: Infinity War</div></a>
+                      </div>
+                      <div class="container movie-list">
+                        <a href="#"><img class="rounded" src="img/EndGamePoster.jpg" alt="Avengers: Endgame Poster">
+                        <div class="overlay">Avengers: Endgame</div></a>
+                      </div>
+                      <div class="container movie-list">
+                        <a href="#"><img class="rounded" src="img/ThorRagnarokPoster.png" alt="Thor: Ragnarok">
+                        <div class="overlay">Thor: Ragnarok</div></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 right-box order-first">
+                    <div class="right-media">
+                      <p><strong>Rating:</strong> <br>PG-13</p>
+                      <p><strong>IMDB Rating:</strong>
+                         <br>8.7/10
+                         <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div></p>
+                      <p><strong>Status:</strong> <br>Released</p>
+                      <p><strong>Language:</strong> <br>English</p>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="container-fluid footer">
+              <div class="row footer">
+                <div class="col-md-4">
+                  <h3>Subscribe</h3>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="input" placeholder="Email" aria-label="Email">
+                    <button class="btn btn-primary" type="input">Subscribe</button>
+                  </form>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="img/logo.png" alt="TopherMD Logo" class="logo-footer">
+                  <div class="media-icons">
+                    <span><a href="#"><i class="fab fa-facebook-square fa-2x"></i> </a></span>
+                    <span><a href="#"><i class="fab fa-twitter-square fa-2x"></i> </a></span>
+                    <span><a href="#"><i class="fab fa-instagram-square fa-2x"></i> </a></span>
+                    <span><a href="#"><i class="fab fa-youtube-square fa-2x"></i> </a></span>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <h3>About Me</h3>
+                  <p>This website was created for an assignment.<br> 
+                    My target was to make as many things functional and aesthetic,
+                    while still meeting the the expected requirements.<br>
+                    The website is capable of being functional within various devices.</p>
+                </div>
+                <div class="copyright">
+                <p>Copyright <i class="far fa-copyright"></i> John Lacadin - 217261066 - ITEC3020</p>
+              </div>
+              </div>
+              
+            </div>
+        </footer>
+    </body>
+</html>
